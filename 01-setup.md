@@ -4,12 +4,23 @@ Prior to the workshop, please try to get your machine set up with the following 
 
 1) Make a free account on Github
     - EPA recommends making a Github account associated with your EPA email address
-    <details>
-        <summary>Test click-to-expand</summary>
+<details>
+
+<summary>Test click-to-expand</summary>
         
-        Here is more detailed information on installation.
-        And more, and more...
-    </details>
+Here is more detailed information on installation.  
+And more, and more...
+
+- Substep 1
+- Substep 2...
+
+```code block example
+
+```
+
+Showing that **markdown** formatting is working in here.
+
+</details>
     
 2) Install or update Git (link or include more detailed install instructions)
 3) Check that you can find Git from the command line (try out Git-Bash maybe)
