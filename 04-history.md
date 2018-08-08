@@ -11,3 +11,16 @@ Checkout and reset?
 Merge, rebase?
 
 Re-writing history with amend, squash, ?
+
+## Clone a big repo
+
+Maybe [dplyr](https://github.com/tidyverse/dplyr) or [pandas](https://github.com/pandas-dev/pandas)
+
+
+## Git History: diffs, blames, branches
+
+
+## Github History: issues, pull requests, forks
+
+
+
