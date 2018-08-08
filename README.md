@@ -32,11 +32,7 @@ One of the biggest reasons to use Git is to access, re-use, and contribute to op
 We are particularly indebted to :
 
 * Jenny Bryan's [Happy-Git-with-R](http://happygitwithr.com/) book and materials
-    - [Pre-workshop setup](http://happygitwithr.com/workshops)
-    - [Basic exercises](http://happygitwithr.com/push-pull-github.html)
-    - [PeerJ paper](https://peerj.com/preprints/3159/?utm_content=bufferc4f11&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
-    - [Speakerdeck](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user)
-
+    
 * Alice Bartlett's [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans) on Speakerdeck
 
 * For some more advanced stuff, the [Pro Git](https://git-scm.com/book/en/v2) book, by Scott Chacon and Ben Straub
@@ -44,6 +40,7 @@ We are particularly indebted to :
 
 ## Outline
 
+0) [Detailed Git Install Screenshots](00-git-install.md)
 1) [Pre-Workshop Setup and Installation](01-setup.md)
 2) [Fetch, edit, commit, push (and repeat)](02-exercises.md)
 3) [Collaboration workflows](03-collaboration.md)
