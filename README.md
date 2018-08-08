@@ -44,10 +44,10 @@ We are particularly indebted to :
 
 ## Outline
 
-[Pre-Workshop Setup and Installation](01-setup.md)
-[Fetch, edit, commit, push (and repeat)](02-exercises.md)
-[Collaboration workflows](03-collaboration.md)
-[Exporing repo history](04-history.md)
-[Git automation](05-automation.md)
+1) [Pre-Workshop Setup and Installation](01-setup.md)
+2) [Fetch, edit, commit, push (and repeat)](02-exercises.md)
+3) [Collaboration workflows](03-collaboration.md)
+4) [Exporing repo history](04-history.md)
+5) [Git automation](05-automation.md)
 
 In the ideal world, the first items can be accomplished prior to the session, and there is no way we will get through all of this in the time we have, but wanted to make sure no one was bored!
