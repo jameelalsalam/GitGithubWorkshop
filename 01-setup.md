@@ -35,6 +35,8 @@ For Windows laptops, you can get the Git for Windows installer at either of the 
 
 You get the same files from either page. The first page is specifically about the windows project, while the second is about the overall Git project.
 
+Here you can find [detailed Git installation steps and screenshots](00-git-install.md)
+
 
 ## Verify Git Installation 
 
