@@ -2,12 +2,12 @@
 
 Prior to the workshop, please try to get your machine set up with the following things:
 
--[ ] Get a Github account
--[ ] Install or update Git
--[ ] Verify Git installation and introduce yourself to Git
--[ ] Prove Git can talk to Github
--[ ] Cache your username and password
--[ ] If you use RStudio (or other Git-aware IDE), check it can find Git
+- [ ] Get a Github account
+- [ ] Install or update Git
+- [ ] Verify Git installation and introduce yourself to Git
+- [ ] Prove Git can talk to Github
+- [ ] Cache your username and password
+- [ ] If you use RStudio (or other Git-aware IDE), check it can find Git
 
 These steps are from the pre-workshop instructions from Jenny Bryan's [happy-git-with-R](http://happygitwithr.com/workshops). Her guide has useful advice for many of these steps.
 
