@@ -40,3 +40,14 @@ We are particularly indebted to :
 * Alice Bartlett's [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans) on Speakerdeck
 
 * For some more advanced stuff, the [Pro Git](https://git-scm.com/book/en/v2) book, by Scott Chacon and Ben Straub
+
+
+## Outline
+
+[Pre-Workshop Setup and Installation](01-setup.md)
+[Fetch, edit, commit, push (and repeat)](02-exercises.md)
+[Collaboration workflows](03-collaboration.md)
+[Exporing repo history](04-history.md)
+[Git automation](05-automation.md)
+
+In the ideal world, the first items can be accomplished prior to the session, and there is no way we will get through all of this in the time we have, but wanted to make sure no one was bored!
