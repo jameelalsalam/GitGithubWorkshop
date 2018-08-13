@@ -58,6 +58,8 @@ Hopefully you see something like:
 
 ![](img/git_install/08_git_test_install.png)
 
+## Sharon testing :)
+
 
 
 
