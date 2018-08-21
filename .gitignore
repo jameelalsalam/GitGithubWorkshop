@@ -1,2 +1,5 @@
 
 *.html
+.Rproj.user
+
+GitGithubWorkshop\.Rproj
