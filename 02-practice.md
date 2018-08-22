@@ -10,8 +10,6 @@ This section includes exercises to practice basic Git operations you might do ev
   - [ ] Using RStudio / other IDE
 
 
-
-
 ## Make and clone a new repo on Github
 
 The easiest way to get a new project started is with "Github first, then clone locally" sequence. There are other options, but this approach has the fewest possible hiccups.
@@ -36,13 +34,15 @@ Click the big green button "Create repository."
 
 Copy the HTTPS clone URL to your clipboard via the green "Clone or Download" button. Or copy the SSH URL if you chose to set up SSH keys.
 
+
 ### Clone repo locally
 
 TODO: Git Bash instructions and screenshots
 
 
-### Alternative: Clone Using RStudio??
+## Edit Files Directly on Github
 
+TODO: text and screenshot
 
 
 ## The pull, edit, commit, push cycle
@@ -58,12 +58,27 @@ Some rules of thumb:
 TODO: More here. This one is sort of the key section.
 
 
+### With Git Bash
+
+TODO: fill in
+
+### With Git-GUI
+
+TODO: fill in
+
+### With RStudio
+
+TODO: fill in
+
+
 ## Exercises:
 
 1. Read the manual page for `git commit`. What does the `-m` mean in `git commit -m "initial commit"`? (Hint: try `git help commit` from Git Bash)
 2. Is it possible to stage files to be committed using the command line, and then actually make the commit using a different tool (Git-GUI or RStudio)?
 
 
+<details>
+  <summary>Expand bonus content here</summary>
 ## Bonus Content
 
 Here we started with a repo on Github, then cloned it locally. But there are lots of different ways to do the sequencing.
@@ -91,6 +106,6 @@ Then make some new files and put them in the folder. Add and commit them with Gi
     git commit -m "initial commit"
     git push origin
     
-
+</details>
 
     

@@ -27,7 +27,7 @@ Head on over to the [setup file](01-setup.md) to get the details.
 
 ## Shoulders of Giants
 
-One of the biggest reasons to use Git is to access, re-use, and contribute to open source code. True to this goal, these materials seek to re-use material out there from our favorite existing tutorials. We either link out or adapt with minor additional EPA-specific or windows-specific.commentary.
+One of the biggest reasons to use Git is to access, re-use, and contribute to open source code. True to this goal, these materials seek to re-use material out there from our favorite existing tutorials. We either link out or adapt with minor additional EPA-specific or windows-specific commentary.
 
 We are particularly indebted to Jenny Bryan's [Happy-Git-with-R](http://happygitwithr.com/) book and materials
     
