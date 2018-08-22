@@ -208,18 +208,28 @@ Follow approach [here](http://happygitwithr.com/push-pull-github.html)
 
 ## Cache Username and Password for Github
 
+As you go about your business, windows can cache your Github credentials so that you can perform Git operations without constantly re-entering your username and password. This usually just works!
+
+<details>
+  <summary>Expand discussion of credential caching here</summary>
+
 Follow approach [here](http://happygitwithr.com/credential-caching.html)
 
-If you selected the defaults when installing Git, then you are using the [Git credential manager for windows](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/wiki/How-the-Git-Credential-Managers-works) to cache your passwords. This is a Git feature provided by Microsoft and works by storing saved passwords in the regular Windows store based on url.
+If you selected the defaults when installing Git, then you are using the [Git credential manager for windows](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/wiki/How-the-Git-Credential-Managers-works) to cache your passwords. This is a Git feature provided by Microsoft and works by storing saved passwords in the regular Windows store based on url. 
 
 Because the Windows credential store works on url, you can't cache credentials for two different accounts for the same url (e.g., if you have both work and personal Github accounts). If you need to delete stored credentials, you can go to:
 
     Control Panel >> Credential Manager >> Windows Credentials >> Generic Credentials
-    
+
+![](img/win_cred_mgr/ctrlpanel.png)
+
 Once you have some cached credentials, they will show up as something like:
 
     git:https://github.com
-    
+
+![](img/win_cred_mgr/credential_github.png)
+
+</details>
 
 ## Connect RStudio (or other IDE) to Git
 
