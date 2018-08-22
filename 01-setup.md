@@ -25,6 +25,7 @@ You can register a Github account yourself at https://www.github.com.
   
 
 ![](img/github/01_github_signup.png)
+<img src="img/github/01_github_signup.png"  width="50%">
 
 While most things about your account can be changed later, Jenny Bryan suggests thinking a little bit about [picking your username](http://happygitwithr.com/github-acct.html#github-acct). 
 
@@ -87,8 +88,6 @@ If you do not have administrator rights, it is possible to install Git in a user
     C:\Users\USERNAME\Programs\Git\
 
 Another way to try to find a Git installation or to test that Git is accessible is to type `where git` from Git-Bash or a command prompt.
-
-![ADD SCREENSHOT]()
 
 
 ### Options
