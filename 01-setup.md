@@ -20,6 +20,10 @@ Github is a cloud service for sharing and collaborating on code. Basically: Shar
 
 You can register a Github account yourself at https://www.github.com. 
 
+<details>
+  <summary>Expand detailed Github Steps Here</summary>
+  
+
 ![](img/github/01_github_signup.png)
 
 While most things about your account can be changed later, Jenny Bryan suggests thinking a little bit about [picking your username](http://happygitwithr.com/github-acct.html#github-acct). 
@@ -43,6 +47,8 @@ A page will open, where you will be asked to confirm your email.
 Log in to the email account you used to register and confirm your account registration. This concludes teh Github registration process.
 
 ![](img/github/05_confirm_email2.png)
+
+</details>
 
 ## Install or Update Git
 
