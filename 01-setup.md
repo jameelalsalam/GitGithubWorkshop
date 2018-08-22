@@ -63,7 +63,7 @@ You get the same files from either page. The first page is specifically about th
 <details>
   <summary>Expand detailed Git installation steps here</summary>
 
-## Free Software
+### Free Software
 
 Git is free, open-source software. As part of the workshop we are trying to arrange a BigFix push such that a Git installation could be pushed to everyones' computer by EISD (EZtech) remotely. If you are using a personal computer for the workshop, or if your office is not supported by EISD, or if you just want to be on the safe side, we wanted to provide some helpful instructions.
 
@@ -73,7 +73,7 @@ Make sure to do your free software request form in advance! You can use the foll
 **Software Title:** Git
 
 
-## Install Location
+### Install Location
 
 Make sure you know where Git is installed! Some places it may have ended up:
 
@@ -91,7 +91,7 @@ Another way to try to find a Git installation or to test that Git is accessible 
 ![ADD SCREENSHOT]()
 
 
-## Options
+### Options
 
 During the installation process, the installer asks several questions about how you would like to set up Git for Windows. I have found the default options to work well! (and you can change them later anyway)
 
@@ -142,32 +142,46 @@ This option ensures that people on Windows, Mac, and Linux machines can all coll
 </details>
 
 
-## Test Git Installation 
+## Configure Git 
 
-Open Git Bash or a command prompt and type the following:
+To test and configure the Git installation, we will need to use Git Bash (or a command prompt) and put in a few commands.
+
+From: [Introduce Yourself to Git](http://happygitwithr.com/hello-git.html)
+
+<details>
+  <summary>Expand configuration steps here</summary>
+
+To open Git Bash, you can search for it in the start menu:
+
+![](img/git_config/01_startmenu.png)
+
+This will open up the Bash terminal. The prompt looks a little different than you might be used to. You can use `pwd` to find out what directory you are in.
+
+![](img/git_config/02_bash_pwd.png)
+
+I like to pin Git-Bash to the task bar for easy access by right-clicking:
+
+![](img/git_config/03_pin_bash.png)
+
+To see whether Git is working, type the following:
 
     git --version
     
 Hopefully you see something like:
 
-![](img/preworkshop/01_git_version_cmd.png)
-![](img/preworkshop/02_git_version_bash.png)
+![](img/git_config/04a_git_version_bash.png)
 
-
-## Configure Git
-
-From: [Introduce Yourself to Git](http://happygitwithr.com/hello-git.html)
 
 Configure Git by adding your user name and email
 
     git config --global user.name "Sharon D Kenny"
     git config --global user.email sharon.d.kenny@gmail.com
     
-![](img/preworkshop/config_git.png)
+![](img/git_config/05_config.png)
 
-If you use Notepad++ you can change your text editor:
+This sort of approach can be used for other configuration to. If you use Notepad++, maybe you want to tell Git to use that for your text editor:
 
-![](img/preworkshop/04_change_editor.png)
+![](img/git_config/06_change_editor.png)
 
 Confirm the configuration entries you provided:
 
@@ -175,12 +189,15 @@ Confirm the configuration entries you provided:
 
 ![](img/preworkshop/05_verify_entries.png)
 
+</details>
 
 ### Git Graphical Clients
 
 Git is a command-line program, but there are also various graphical tools which provide a point-and-click GUI interface layered on top of Git. Under the hood these are still using the same set of tools as you would find at the command line.
 
-Jenny Bryan recommend [installing a Git client](http://happygitwithr.com/git-client.html). For this workshop, we will be using Git-GUI, which is a very basic graphical client that is included with Git for Windows. If you are an R user, RStudio can also serve as a Git client for some operations. Two popular modern Git clients are GitKraken and Sourcetree. The workshop organizers investigated the possibility of using one of these for the workshop, but due to the short time and consideration requirements for EPA software, were not able to standardize prior to the session.
+Jenny Bryan recommends [installing a Git client](http://happygitwithr.com/git-client.html). 
+
+For this workshop, we will be using Git-GUI, which is a very basic graphical client that is included with Git for Windows. If you are an R user, RStudio can also serve as a Git client for some operations. Two popular modern Git clients are GitKraken and Sourcetree. The workshop organizers investigated the possibility of using one of these for the workshop, but due to the short time and consideration requirements for EPA software, were not able to standardize prior to the session.
 
 
 ## Prove Git can Talk to Github
@@ -193,7 +210,7 @@ Follow approach [here](http://happygitwithr.com/push-pull-github.html)
 
 Follow approach [here](http://happygitwithr.com/credential-caching.html)
 
-If you selected the defaults when installting Git, then you are using the [Git credential manager for windows](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/wiki/How-the-Git-Credential-Managers-works) to cache your passwords. This is a Git feature provided by Microsoft and works by storing saved passwords in the regular Windows store based on url.
+If you selected the defaults when installing Git, then you are using the [Git credential manager for windows](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/wiki/How-the-Git-Credential-Managers-works) to cache your passwords. This is a Git feature provided by Microsoft and works by storing saved passwords in the regular Windows store based on url.
 
 Because the Windows credential store works on url, you can't cache credentials for two different accounts for the same url (e.g., if you have both work and personal Github accounts). If you need to delete stored credentials, you can go to:
 
