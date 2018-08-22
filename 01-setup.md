@@ -20,10 +20,29 @@ Github is a cloud service for sharing and collaborating on code. Basically: Shar
 
 You can register a Github account yourself at https://www.github.com. 
 
+![](img/github/01_github_signup.png)
+
 While most things about your account can be changed later, Jenny Bryan suggests thinking a little bit about [picking your username](http://happygitwithr.com/github-acct.html#github-acct). 
 
 A Github account can be associated with multiple email addresses. The EPA Github Guidance states that EPA employees should [create a new account associated with their EPA email address](https://www.epa.gov/webguide/github-guidance#who) when contributing to a repository associated with the EPA organization. However, Github recommends that users have only [one account for both personal and professional repositories](https://help.github.com/articles/merging-multiple-user-accounts/).
 
+![](img/github/02_signup.png)
+
+The page that opens next can be skipped. Click "submit"
+
+![](img/github/03_signup.png)
+
+You are now inside Github. Click the button **"Start a Project"**
+
+![](img/github/04_start_proj.png)
+
+A page will open, where you will be asked to confirm your email.
+
+![](img/github/05_confirm_email.png)
+
+Log in to the email account you used to register and confirm your account registration. This concludes teh Github registration process.
+
+![](img/github/05_confirm_email2.png)
 
 ## Install or Update Git
 
@@ -38,9 +57,41 @@ You get the same files from either page. The first page is specifically about th
 Here you can find [detailed Git installation steps and screenshots](00-git-install.md)
 
 
-## Verify Git Installation 
+## Test Git Installation 
 
-[Introduce Yourself to Git](http://happygitwithr.com/hello-git.html)
+Open Git Bash or a command prompt and type the following:
+
+    git --version
+    
+Hopefully you see something like:
+
+![](img/preworkshop/01_git_version_cmd.png)
+![](img/preworkshop/02_git_version_bash.png)
+
+
+## Configure Git
+
+From: [Introduce Yourself to Git](http://happygitwithr.com/hello-git.html)
+
+Configure Git by adding your user name and email
+
+    git config --global user.name "Sharon D Kenny"
+    git config --global user.email sharon.d.kenny@gmail.com
+    
+![](img/preworkshop/config_git.png)
+
+If you use Notepad++ you can change your text editor:
+
+![](img/preworkshop/04_change_editor.png)
+
+Confirm the configuration entries you provided:
+
+    git config --global --list
+
+![](img/preworkshop/05_verify_entries.png)
+
+
+### Git Graphical Clients
 
 Git is a command-line program, but there are also various graphical tools which provide a point-and-click GUI interface layered on top of Git. Under the hood these are still using the same set of tools as you would find at the command line.
 
@@ -50,6 +101,7 @@ Jenny Bryan recommend [installing a Git client](http://happygitwithr.com/git-cli
 ## Prove Git can Talk to Github
 
 Follow approach [here](http://happygitwithr.com/push-pull-github.html)
+
 
 
 ## Cache Username and Password for Github
