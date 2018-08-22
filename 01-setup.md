@@ -16,7 +16,7 @@ If you get stuck, you can contact Jameel (alsalam.jameel@epa.gov). He is happy t
 
 ## Get a Github Account
 
-Github is a cloud service for sharing and collaborating on code. Basically: Sharepoint for code. It is based on Git for version control, but just as Sharepoint is not Office, Github (the cloud service) is distinct from Git (the version control software). You can read EPA's current guidance for Github on the [EPA intranet](https://www.epa.gov/webguide/github-guidance).
+Github is a cloud service for sharing and collaborating on code. Basically: Sharepoint for code. It is based on Git, but just as Sharepoint is not Office, Github (the cloud service) is distinct from Git (the version control software). You can read EPA's current guidance for Github on the [EPA intranet](https://www.epa.gov/webguide/github-guidance).
 
 You can register a Github account yourself at https://www.github.com. 
 
@@ -27,13 +27,15 @@ You can register a Github account yourself at https://www.github.com.
 ![](img/github/01_github_signup.png)
 <img src="img/github/01_github_signup.png"  width="50%">
 
-While most things about your account can be changed later, Jenny Bryan suggests thinking a little bit about [picking your username](http://happygitwithr.com/github-acct.html#github-acct). 
+You probably want to choose a generic username like `jameelalsalam` and associate your EPA email address with it.
 
-A Github account can be associated with multiple email addresses. The EPA Github Guidance states that EPA employees should [create a new account associated with their EPA email address](https://www.epa.gov/webguide/github-guidance#who) when contributing to a repository associated with the EPA organization. However, Github recommends that users have only [one account for both personal and professional repositories](https://help.github.com/articles/merging-multiple-user-accounts/).
+While most things about your account can be changed later, it is hard to change the username. Jenny Bryan has some [discussion  here](http://happygitwithr.com/github-acct.html#github-acct). 
+
+A Github account can be associated with multiple email addresses. The EPA Github Guidance states that EPA employees should [create a new account associated with their EPA email address](https://www.epa.gov/webguide/github-guidance#who) when contributing to a repository associated with the EPA organization. However, Github recommends that users have only [one account for both personal and professional repositories](https://help.github.com/articles/merging-multiple-user-accounts/). 
 
 ![](img/github/02_signup.png)
 
-The page that opens next can be skipped. Click "submit"
+The page that opens next can be skipped, unless you want to provide Microsoft some information about yourself.
 
 ![](img/github/03_signup.png)
 
@@ -55,7 +57,7 @@ Log in to the email account you used to register and confirm your account regist
 
 Git is the version control software which underlies Github, and it needs to be installed for you to contribute to code repositories on Github or Bitbucket.
 
-For Windows laptops, you can get the Git for Windows installer at either of the following pages:
+For Windows machines, you can get the Git for Windows installer at either of the following pages:
 * https://gitforwindows.org/
 * https://git-scm.com/download/win
 
@@ -66,9 +68,11 @@ You get the same files from either page. The first page is specifically about th
 
 ### Free Software
 
-Git is free, open-source software. As part of the workshop we are trying to arrange a BigFix push such that a Git installation could be pushed to everyones' computer by EISD (EZtech) remotely. If you are using a personal computer for the workshop, or if your office is not supported by EISD, or if you just want to be on the safe side, we wanted to provide some helpful instructions.
+Git is free, open-source software. As part of the workshop we are trying to arrange a BigFix push such that a Git installation could be pushed to everyones' computer by EISD (formerly EZtech) remotely. If you are using a personal computer for the workshop, or if your office is not supported by EISD, or if you just want to be on the safe side, go on ahead.
 
-Make sure to do your free software request form in advance! You can use the following example language for the form:
+Make sure to do your free software request form in advance! EISD uses these forms to track software installs. The following language could be used:
+
+Link to [free software form on sharepoint](https://usepa.sharepoint.com/sites/EZForms/SitePages/Home.aspx)
 
 **Justification:** Git is a version control system (VCS) used to track changes and collaborate on code development in conjunction with services such as Github and Bitbucket. Git and Github allows developers to follow open source projects, share code, and track code changes through the development process. Git is necessary for using the EPA Github account or Bitbucket server. The windows version of Git ("Git for Windows") is available for download here: https://gitforwindows.org/
 **Software Title:** Git

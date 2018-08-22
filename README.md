@@ -29,22 +29,17 @@ Head on over to the [setup file](01-setup.md) to get the details.
 
 One of the biggest reasons to use Git is to access, re-use, and contribute to open source code. True to this goal, these materials seek to re-use material out there from our favorite existing tutorials. We either link out or adapt with minor additional EPA-specific or windows-specific.commentary.
 
-We are particularly indebted to :
-
-* Jenny Bryan's [Happy-Git-with-R](http://happygitwithr.com/) book and materials
+We are particularly indebted to Jenny Bryan's [Happy-Git-with-R](http://happygitwithr.com/) book and materials
     
-* Alice Bartlett's [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans) on Speakerdeck
-
-* For some more advanced stuff, the [Pro Git](https://git-scm.com/book/en/v2) book, by Scott Chacon and Ben Straub
+For more advanced tasks the [Pro Git](https://git-scm.com/book/en/v2) book, by Scott Chacon and Ben Straub is a good source.
 
 
 ## Outline
 
-0) [Detailed Git Install Screenshots](00-git-install.md)
 1) [Pre-Workshop Setup and Installation](01-setup.md)
-2) [Fetch, edit, commit, push (and repeat)](02-exercises.md)
+2) [Practice: pull, edit, commit, push (and repeat)](02-practice.md)
 3) [Collaboration workflows](03-collaboration.md)
 4) [Exporing repo history](04-history.md)
 5) [Git automation](05-automation.md)
 
-In the ideal world, the first items can be accomplished prior to the session, and there is no way we will get through all of this in the time we have, but wanted to make sure no one was bored!
+In the ideal world, all the pre-workshop setup can be accomplished prior to the session. Then during the hands-on part of the workshop people can choose where to spend their time. I imagine those new to Git might just work on #2, while more advanced users might find something of interest in the other sections. We wanted to make sure no one would be bored.
