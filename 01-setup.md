@@ -25,7 +25,6 @@ You can register a Github account yourself at https://www.github.com.
   
 
 ![](img/github/01_github_signup.png)
-<img src="img/github/01_github_signup.png"  width="50%">
 
 You probably want to choose a generic username like `jameelalsalam` and associate your EPA email address with it.
 
@@ -82,14 +81,13 @@ Link to [free software form on sharepoint](https://usepa.sharepoint.com/sites/EZ
 
 Make sure you know where Git is installed! Some places it may have ended up:
 
-* `C:\Program Files\Git` (EZtech/EISD installation will be here)
-* `C:\Users\<useraccountname>\AppData\Local\Programs\Git`
+* `C:\Program Files\Git`
+* `C:\Users\<USERNAME>\AppData\Local\Programs\Git`
+* `C:\Users\<USERNAME>\Programs\Git\`
     
-Note that the `AppData` directory is hidden. 
+(Note that the `AppData` directory is hidden.)
 
-If you do not have administrator rights, it is possible to install Git in a user directory for easy updating later. I recommend:
-
-    C:\Users\USERNAME\Programs\Git\
+It is possible to install Git in a user directory for easy updating later.
 
 Another way to try to find a Git installation or to test that Git is accessible is to type `where git` from Git-Bash or a command prompt.
 
