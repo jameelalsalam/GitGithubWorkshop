@@ -8,7 +8,7 @@ Git and Github are powerful tools that can be used in different ways depending o
 
 ## Small Team Workflow
 
-For this workflow, you use a single repo on Github or Bitbucket and have multiple contributors with write permissions. This can be done with either a private or public repo, and  
+For this workflow, you use a single repo on Github and have multiple contributors with write permissions. This can be done with either a private or public repo, and  
 
 1. Make a repo (on Github)
 2. Add your neighbor as a contributor (on Github)
