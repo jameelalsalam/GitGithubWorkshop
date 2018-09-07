@@ -122,8 +122,9 @@ Notice that there is now an "untracked file". This is a new file not yet tracked
 
 Go back to Github and refresh the page to see that your changes are on the internet.
 
-### With Git-GUI
 </details>
+
+### With Git-GUI
 <details><summary>Expand the steps here.</summary>
 
 
@@ -161,9 +162,10 @@ Git-GUI pops a new window, but you should be able to just click "push"
 
 ![](img/practice/15_gitgui_push.png)
 
-### With RStudio
+
 </details>
 
+### With RStudio
 <details><summary>Expand the steps here.</summary>
 
 Finally, some IDE's (such as RStudio) have Git integration which allows you to commit from within the IDE. If you are an R user, this may be more convenient than the alternatives.
