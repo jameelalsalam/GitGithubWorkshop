@@ -20,6 +20,8 @@ The repository page has tons of information. You can explore the current code, s
 
 Since the README file is used as the home page for a repo on Github, this is frequently the place to go to learn about a piece of software you haven't used before.
 
+![](img/history/00_dplyr_readme.png)
+
 <details><summary>Expand steps & screenshots for exploring history on Github</summary>
 
 
@@ -76,33 +78,53 @@ For example:
 
 The main folder of a repo or the `.github` folder are common places to find these files.
 
+Here is an [article from Github about contributor guidelines](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
 
 </details>
 
+
 ## Explore Repo History with Git-GUI
+
+Github is great, but you can also explore repo history locally. When you clone a repo, you are getting the entire history of the repo. This is an area where visual tools really shine compared to the command line.
+
+<details><summary>Expand it!</summary>
 
 ### Clone an existing repo locally
 
+Follow the same approach [as before](02-practice.md).
 
-
-
-
+e.g.:
+    git clone https://github.com/tidyverse/dplyr.git
+    
+(we will see if this stresses the internet connection too much....)
 
 ### Open the Repo in Git-GUI
 
-TODO: add screenshot from Git-GUI opening a repo
+![](/img/history/10_gui_open.png)
 
 
 ### Inspect Commit Graph
 
-TODO: add screenshot from Git-GUI/gitk
+Under the 'repository' menu, go to 'visualize master's history' (the main branch of code is usually called master)
+
+![](/img/history/11_gui_viz.png)
+
+Looks something like this:
+
+![](/img/history/12_gui_graph.png)
+
+If you squint, you can sort of imagine how this relates to what you could see on Github, but not quite the same. More modern git clients offer better visualization.
+
+This page shows some screenshots of what [this sort of thing looks like in GitKraken](https://support.gitkraken.com/working-with-commits/diff).
+
+</details>
 
 
 ## Git History: diffs, blames, branches
 
 It is possible to explore diffs, blames, branches, commits, etc, all from the command line. I have to admit I don't have much experience with this, but you could try out:
 
-TODO: find a link to recommend.
+This [article from Atlassian](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-blame) goes through some commands you can try.
 
 
 
