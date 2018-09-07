@@ -199,6 +199,8 @@ To go forward with the cycle click:
 
 </details>
 
+
+
 Whew! That was a lot of screenshots. But now you have some practice with the basic cycle using 3 different tools.
 
 ## Exercises:
