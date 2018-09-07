@@ -91,10 +91,9 @@ Some rules of thumb:
 - Pull before you commit. This avoids merge conflicts with your colleagues.
 - Push after every commit. This makes your changes available to your colleagues, and again helps avoid merge conflicts.
 
+### With Git Bash
 <details>
-  <summary>
-  
-### With Git Bash</summary>
+  <summary>Expand the steps here.</summary>
 
 Navigate to your repo folder in Git Bash. Check status and pull.
 
@@ -123,11 +122,11 @@ Notice that there is now an "untracked file". This is a new file not yet tracked
 
 Go back to Github and refresh the page to see that your changes are on the internet.
 
+### With Git-GUI
 </details>
+<details><summary>Expand the steps here.</summary>
 
-<details><summary>
 
-### With Git-GUI</summary>
 
 Find Git-GUI in the start menu.
 
@@ -162,11 +161,10 @@ Git-GUI pops a new window, but you should be able to just click "push"
 
 ![](img/practice/15_gitgui_push.png)
 
+### With RStudio
 </details>
 
-<details><summary>
-
-### With RStudio</summary>
+<details><summary>Expand the steps here.</summary>
 
 Finally, some IDE's (such as RStudio) have Git integration which allows you to commit from within the IDE. If you are an R user, this may be more convenient than the alternatives.
 
