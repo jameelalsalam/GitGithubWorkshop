@@ -92,7 +92,9 @@ Some rules of thumb:
 - Push after every commit. This makes your changes available to your colleagues, and again helps avoid merge conflicts.
 
 <details>
-  <summary>### With Git Bash</summary>
+  <summary>
+  
+### With Git Bash</summary>
 
 Navigate to your repo folder in Git Bash. Check status and pull.
 
@@ -123,7 +125,9 @@ Go back to Github and refresh the page to see that your changes are on the inter
 
 </details>
 
-<details><summary>### With Git-GUI</summary>
+<details><summary>
+
+### With Git-GUI</summary>
 
 Find Git-GUI in the start menu.
 
@@ -160,7 +164,9 @@ Git-GUI pops a new window, but you should be able to just click "push"
 
 </details>
 
-<details><summary>### With RStudio</summary>
+<details><summary>
+
+### With RStudio</summary>
 
 Finally, some IDE's (such as RStudio) have Git integration which allows you to commit from within the IDE. If you are an R user, this may be more convenient than the alternatives.
 
@@ -203,6 +209,7 @@ Whew! That was a lot of screenshots. But now you have some practice with the bas
 
 <details>
   <summary>Expand bonus content here</summary>
+
 ## Bonus Content
 
 Here we started with a repo on Github, then cloned it locally. But there are lots of different ways to do the sequencing.
